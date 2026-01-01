@@ -1,0 +1,19 @@
+{
+  "name": "punox",
+  "version": "1.0.0",
+  "description": "A portfolio with content management system for posting blogs, docs, projects...",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["portfolio", "cms", "nextjs", "express", "tailwindcss"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
