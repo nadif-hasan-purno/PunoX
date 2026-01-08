@@ -4,7 +4,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center gap-8 px-8 py-16">
         <div className="text-center">
           <h1 className="text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            PunoX
+            PunoXdev
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
             Portfolio & Content Management System
